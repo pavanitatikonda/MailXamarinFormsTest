@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampleApp1.Page1">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="10,20,10,10">
+            <Entry x:Name="firstName" 
+                Placeholder="Enter employee's first name here"/>
+            <Entry x:Name="lastName" 
+                Placeholder="Enter employee's last name here"/>
+            <Entry x:Name="position"  
+                Placeholder="Enter employee's position here"/>
+            <Button Text="Save to PDF" Clicked="OnSaveClicked" />
+            <Button Text="SendMail" Clicked="OnMailSend"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

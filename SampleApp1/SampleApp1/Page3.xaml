@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampleApp1.Page3">
+
+        <!--<ContentPage.ToolbarItems>
+            <ToolbarItem Icon="icon.png"  Priority="0"></ToolbarItem>
+            <ToolbarItem Text="Good Morning" Priority="0"></ToolbarItem>
+            <ToolbarItem Text="item1"  Priority="1" Order="Secondary" ></ToolbarItem>
+            <ToolbarItem Text="item2" Priority="1" ></ToolbarItem>
+            <ToolbarItem Text="item3" Priority="2" ></ToolbarItem>
+        </ContentPage.ToolbarItems>-->
+    
+        <!--<ContentPage.ToolbarItems>
+        <ToolbarItem Text="item3" Priority="0" ></ToolbarItem>
+        <ToolbarItem Text="item3" Priority="1" ></ToolbarItem>
+        <ToolbarItem Text="item3" Priority="2" ></ToolbarItem>
+        <ToolbarItem Text="item3" Priority="3" ></ToolbarItem>
+        <ToolbarItem Text="item3" Priority="4" ></ToolbarItem>
+        <ToolbarItem Text="item3" Priority="5" ></ToolbarItem>
+    </ContentPage.ToolbarItems>-->
+    <!--<ContentPage x:Name="child1" Title="Tab1"></ContentPage>
+            <ContentPage x:Name="child2" Title="Tab2"></ContentPage>
+            <ContentPage x:Name="child3" Title="Tab3"></ContentPage>-->
+    <Grid RowSpacing="0" ColumnSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.11*"></RowDefinition>
+            <RowDefinition Height="0.11*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid  Grid.Row="0" BackgroundColor="#191970">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Image  Source="Menu.png" VerticalOptions="Center" HorizontalOptions="Start" ></Image>
+                <Label  Text="{Binding WishText}" FontSize="Large" TextColor="White" HorizontalOptions="Center"
+                     VerticalOptions="Center" ></Label>
+        </Grid>
+
+        <Grid Grid.Row="1" BackgroundColor="#191970">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0" Source="Help.png" VerticalOptions="Center" HorizontalOptions="Start" ></Image>
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer  Tapped="OnIconTapped"/>
+            </Image.GestureRecognizers>
+            <Image Grid.Column="1" Source="icon.png" VerticalOptions="Center" HorizontalOptions="Center" ></Image>
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer  Tapped="OnIconTapped"/>
+            </Image.GestureRecognizers>
+            <Image Grid.Column="2" Source="Lock.png"  VerticalOptions="Center" HorizontalOptions="End" ></Image>
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer  Tapped="OnIconTapped"/>
+            </Image.GestureRecognizers>
+            <Image Grid.Column="2" Margin="0,0,40,0" Source="Notification.png"  VerticalOptions="Center" HorizontalOptions="End" ></Image>
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer  Tapped="OnIconTapped"/>
+            </Image.GestureRecognizers>
+        </Grid>
+       
+        <ContentView x:Name="ContentPlace" Grid.Row="2"></ContentView>
+    </Grid>
+</ContentPage>

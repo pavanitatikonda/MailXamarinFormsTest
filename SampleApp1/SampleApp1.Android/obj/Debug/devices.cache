@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Devices>
+  <Device id="192.168.27.101:5555">
+    <ResultingAbi>x86</ResultingAbi>
+    <SdkVersion>23</SdkVersion>
+  </Device>
+  <Device id="192.168.161.101:5555">
+    <ResultingAbi>x86</ResultingAbi>
+    <SdkVersion>23</SdkVersion>
+  </Device>
+  <Device id="ZY3223PX7M">
+    <ResultingAbi>armeabi-v7a</ResultingAbi>
+    <SdkVersion>24</SdkVersion>
+  </Device>
+  <Device id="192.168.248.101:5555">
+    <ResultingAbi>x86</ResultingAbi>
+    <SdkVersion>24</SdkVersion>
+  </Device>
+</Devices>

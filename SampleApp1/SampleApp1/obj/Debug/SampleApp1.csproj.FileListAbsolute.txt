@@ -1,0 +1,11 @@
+D:\XAMARIN_POCS\SampleApp1\SampleApp1\SampleApp1\obj\Debug\SampleApp1.csproj.CoreCompileInputs.cache
+D:\XAMARIN_POCS\SampleApp1\SampleApp1\SampleApp1\obj\Debug\SampleApp1.App.xaml.g.cs
+D:\XAMARIN_POCS\SampleApp1\SampleApp1\SampleApp1\obj\Debug\SampleApp1.Page1.xaml.g.cs
+D:\XAMARIN_POCS\SampleApp1\SampleApp1\SampleApp1\obj\Debug\SampleApp1.Page3.xaml.g.cs
+D:\XAMARIN_POCS\SampleApp1\SampleApp1\SampleApp1\obj\Debug\SampleApp1.Page2.xaml.g.cs
+D:\XAMARIN_POCS\SampleApp1\SampleApp1\SampleApp1\obj\Debug\SampleApp1.HelpPage.xaml.g.cs
+D:\XAMARIN_POCS\SampleApp1\SampleApp1\SampleApp1\obj\Debug\SampleApp1.IconPage.xaml.g.cs
+D:\XAMARIN_POCS\SampleApp1\SampleApp1\SampleApp1\obj\Debug\SampleApp1.LockPage.xaml.g.cs
+D:\XAMARIN_POCS\SampleApp1\SampleApp1\SampleApp1\obj\Debug\SampleApp1.NotificationPage.xaml.g.cs
+D:\XAMARIN_POCS\SampleApp1\SampleApp1\SampleApp1\obj\Debug\SampleApp1.dll
+D:\XAMARIN_POCS\SampleApp1\SampleApp1\SampleApp1\obj\Debug\SampleApp1.pdb

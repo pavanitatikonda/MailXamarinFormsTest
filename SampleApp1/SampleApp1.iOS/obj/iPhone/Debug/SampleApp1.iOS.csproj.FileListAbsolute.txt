@@ -1,0 +1,7 @@
+D:\XAMARIN_POCS\SampleApp1\SampleApp1\SampleApp1.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\XAMARIN_POCS\SampleApp1\SampleApp1\SampleApp1.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+D:\XAMARIN_POCS\SampleApp1\SampleApp1\SampleApp1.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+D:\XAMARIN_POCS\SampleApp1\SampleApp1\SampleApp1.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+D:\XAMARIN_POCS\SampleApp1\SampleApp1\SampleApp1.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+D:\XAMARIN_POCS\SampleApp1\SampleApp1\SampleApp1.iOS\obj\iPhone\Debug\optimized\
+D:\XAMARIN_POCS\SampleApp1\SampleApp1\SampleApp1.iOS\obj\iPhone\Debug\SampleApp1.iOS.csproj.CoreCompileInputs.cache

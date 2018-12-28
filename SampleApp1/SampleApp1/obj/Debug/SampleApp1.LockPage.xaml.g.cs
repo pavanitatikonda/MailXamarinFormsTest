@@ -11,7 +11,7 @@
 namespace SampleApp1 {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\XAMARIN_POCS\\SampleApp1\\SampleApp1\\SampleApp1\\LockPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\XAMARIN\\XAMARIN_POCS\\SampleApp1\\SampleApp1\\SampleApp1\\LockPage.xaml")]
     public partial class LockPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

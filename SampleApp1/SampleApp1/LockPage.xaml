@@ -4,9 +4,11 @@
              x:Class="SampleApp1.LockPage">
     <ContentPage.Content>
         <StackLayout>
+            
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -8,6 +8,7 @@ namespace SampleApp1
 {
   public interface IMailService
     {
+        // Sending Mail 
         void sendMail();
     }
 }
